@@ -3,7 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="icon" href="https://www.bubt.edu.bd/assets/componats/new-image/fav.png" type="image/gif" sizes="16x16">
+    <link
+      rel="icon"
+      href="https://www.bubt.edu.bd/assets/componats/new-image/fav.png"
+      type="image/gif"
+      sizes="16x16"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -11,6 +17,14 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/06edb80a75.js"
+      crossorigin="anonymous"
+    ></script>
     <title>School Management System</title>
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -74,13 +88,24 @@
       </div>
     </div>
     <!-- NAVBAR START -->
-    <div class="container body1">
+    <div class="container body1 mb-5">
       <div class="notice">
-        <marquee>সহশিক্ষা কার্যক্রমের অংশ হিসেবে ক্লাব বা সংগঠনে যুক্ত হলে যোগাযোগের দক্ষতা তৈরি হয়, রিপোর্ট লেখা বা নিজের ভাবনা উপস্থাপনের কৌশল শেখা যায়। দলের সঙ্গে কাজ করা, নেতৃত্ব দেওয়া, এসব দক্ষতাও মানুষ ক্লাব থেকেই শেখে। বিশ্ববিদ্যালয়ের অনেক ক্লাব প্রোগ্রামিং, ফটোগ্রাফি, রোবটিকসের মতো কারিগরি দক্ষতার চর্চাও করে। যদি এসব বিষয়ে আগ্রহ থাকে, তাহলে এ ধরনের ক্লাবে অংশ নিয়ে সহজেই দক্ষতা রপ্ত করা যায়।</marquee>
+        <marquee
+          >সহশিক্ষা কার্যক্রমের অংশ হিসেবে ক্লাব বা সংগঠনে যুক্ত হলে যোগাযোগের
+          দক্ষতা তৈরি হয়, রিপোর্ট লেখা বা নিজের ভাবনা উপস্থাপনের কৌশল শেখা যায়।
+          দলের সঙ্গে কাজ করা, নেতৃত্ব দেওয়া, এসব দক্ষতাও মানুষ ক্লাব থেকেই শেখে।
+          বিশ্ববিদ্যালয়ের অনেক ক্লাব প্রোগ্রামিং, ফটোগ্রাফি, রোবটিকসের মতো
+          কারিগরি দক্ষতার চর্চাও করে। যদি এসব বিষয়ে আগ্রহ থাকে, তাহলে এ ধরনের
+          ক্লাবে অংশ নিয়ে সহজেই দক্ষতা রপ্ত করা যায়।</marquee
+        >
       </div>
       <div class="section1">
         <div class="row">
-          <div class="col-md-8 sliderSection">
+          <div
+            class="col-md-8 sliderSection"
+            data-aos="fade-right"
+            data-aos-delay="500"
+          >
             <div
               id="carouselExampleIndicators"
               class="carousel slide"
@@ -157,13 +182,20 @@
               </button>
             </div>
           </div>
-          <div class="col-md-4 sidebar">
+          <div
+            class="col-md-4 sidebar"
+            data-aos="fade-left"
+            data-aos-delay="500"
+          >
             <h1 style="font-family: emoji" class="text-center">Notice</h1>
             <div class="noti">
               <ul>
                 <li>
                   <a href="#" target="_blank" rel="noopener noreferrer">
-                    <h4 style="display:inline"> <div class="dot"></div> Notice 1</h4>
+                    <h4 style="display: inline">
+                      <div class="dot"></div>
+                      Notice 1
+                    </h4>
                     <p>
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Adipisci, quo! Quidem esse ...
@@ -173,7 +205,10 @@
                 <hr />
                 <li>
                   <a href="#" target="_blank" rel="noopener noreferrer">
-                    <h4 style="display:inline"> <div class="dot"></div> Notice 2</h4>
+                    <h4 style="display: inline">
+                      <div class="dot"></div>
+                      Notice 2
+                    </h4>
                     <p>
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Adipisci, quo! Quidem esse ...
@@ -183,7 +218,10 @@
                 <hr />
                 <li>
                   <a href="#" target="_blank" rel="noopener noreferrer">
-                    <h4 style="display:inline"> <div class="dot"></div> Notice 3</h4>
+                    <h4 style="display: inline">
+                      <div class="dot"></div>
+                      Notice 3
+                    </h4>
                     <p>
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Adipisci, quo! Quidem esse ...
@@ -197,9 +235,104 @@
         </div>
       </div>
     </div>
-    <div style="height: 500px;" class="container">
-
+    <div class="container row justify-content-between ms-md-4 ms-2 mb-5">
+      <div
+        class="col-md-3 notice-section"
+        data-aos="fade-right"
+        data-aos-delay="200"
+      >
+        <div class="noti-img"><img src="./img/icon.svg" alt="" /></div>
+        <h4>Teacher's Notice</h4>
+        
+      </div>
+      <div
+        class="col-md-3 notice-section"
+        data-aos="fade-up"
+        data-aos-delay="200"
+      >
+        <div class="noti-img"><img src="./img/icon.svg" alt="" /></div>
+        <h4>Student's Notice</h4>
+      </div>
+      <div
+        class="col-md-3 notice-section"
+        data-aos="fade-left"
+        data-aos-delay="200"
+      >
+        <div class="noti-img"><img src="./img/icon.svg" alt="" /></div>
+        <h4>Guardian's Notice</h4>
+      </div>
     </div>
+
+    <div class="container">
+      <div class="uni-info card">
+        <div class="row">
+          <div class="col-md-6" data-aos="fade-right" data-aos-delay="500">
+            <div class="card-title">
+              <h2>About BUBT</h2>
+            </div>
+            <div class="card-text">
+              <p>
+                Rajshahi Cantonment Board School & college, situated at Rajshahi
+                Cantonment, in the heart of Rajshahi city, also known as the
+                city of Education is a well reputed and rapidly growing
+                educational institution in Bangladesh. Established in 1986, it
+                has become a torch-bearer of education in this historic area of
+                Varandra. The institution is run by the Director General of
+                Directorate of Military Lands & Cantonments (DMLC), Ministry of
+                Defense under the vigilant supervision of the reverend Station
+                Commander, Rajshiahi Cantonment and direct guidance of
+                Cantonment Executive Officer (CEO), Rajshahi Cantonment Board.
+                With the active and ardent initiatives of Colonel MD Abdul Aziz
+                (late), the former education inclined Station Commandant of
+                Rajshahi Cantonment, the institute was set up as a Junior School
+                at the very beginning.
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-md-6 mt-md-3"
+            data-aos="fade-down-left"
+            data-aos-delay="800"
+          >
+            <img src="./img/university.jpg" width="100%" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container row mb-auto">
+      <div class="col-md-4 col-6">
+        <div class="card text-center">
+          <img src="./img/chairman.png" width="50%" />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-6">
+        <div class="card text-center">
+          <img src="./img/chairman.png" width="50%" />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4"></div>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
       integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
