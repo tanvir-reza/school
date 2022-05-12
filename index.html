@@ -28,7 +28,8 @@
     <title>School Management System</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <body onload="myFunction()">
+    <div id="loading"></div>
     <!-- NAVBAR START -->
     <div class="mainHeader sticky-top">
       <div class="container newHeader">
@@ -300,15 +301,14 @@
       </div>
     </div>
 
-    <div class="container row mb-auto">
+    <div class="container row mb-3 bani">
       <div class="col-md-4 col-6">
         <div class="card text-center">
           <img src="./img/chairman.png" width="50%" />
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title">The Chairman’s Message</h5>
             <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              Rajshahi Cantonment Board School & college is a distinguished educational institution in Rajshahi
             </p>
             <a href="#" class="btn btn-primary">Go somewhere</a>
           </div>
@@ -318,18 +318,80 @@
         <div class="card text-center">
           <img src="./img/chairman.png" width="50%" />
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title">The Chairman’s Message</h5>
             <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              Rajshahi Cantonment Board School & college is a distinguished educational institution in Rajshahi
             </p>
             <a href="#" class="btn btn-primary">Go somewhere</a>
           </div>
         </div>
       </div>
-      <div class="col-md-4"></div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <iframe width="100%" style="margin-top: 43px" height="270" src="https://www.youtube.com/embed/QpxtN9CJRg0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container event">
+      <h3>Events</h3>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card text-center " data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+           <img src="./img/event/e3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <i class="fa fa-calendar-check-o text-primary mt-2" aria-hidden="true"> Publish Date : 20 Feb, 2019</i>
+            <h5 class="card-title">The Chairman’s Message</h5>
+            <p class="card-text">
+              Rajshahi Cantonment Board School & college is a distinguished educational institution in Rajshahi
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-center" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+           <img src="./img/event/e2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <i class="fa fa-calendar-check-o text-primary mt-2" aria-hidden="true"> Publish Date : 20 Feb, 2019</i>
+            <h5 class="card-title">The Chairman’s Message</h5>
+            <p class="card-text">
+              Rajshahi Cantonment Board School & college is a distinguished educational institution in Rajshahi
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-center" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+           <img src="./img/event/e1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <i class="fa fa-calendar-check-o text-primary mt-2" aria-hidden="true"> Publish Date : 20 Feb, 2019</i>
+            <h5 class="card-title">The Chairman’s Message</h5>
+            <p class="card-text">
+              Rajshahi Cantonment Board School & college is a distinguished educational institution in Rajshahi
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        </div>
+      </div>
     </div>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+		// $(document).ready(function(){
+			// 	$('div#loading').removeAttr('id');
+		// });
+		var preloader = document.getElementById("loading");
+		// window.addEventListener('load', function(){
+		// 	preloader.style.display = 'none';
+		// 	})
+
+		function myFunction(){
+			preloader.style.display = 'none';
+		};
+	</script>
     <script>
       AOS.init();
     </script>

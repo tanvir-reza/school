@@ -1,5 +1,16 @@
+#loading{
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	background: #fff
+	url('./img/loader.gif')
+	 no-repeat center center;	
+	z-index: 99999;
+}
+
 body {
-  background-color: #fffcfc;
+  background-color: aliceblue;
+  
 }
 nav ul li a:hover {
   color: #6e1e1e !important;
@@ -82,4 +93,21 @@ marquee {
 }
 .uni-info img {
   border-radius: 3px;
+}
+.bani img{
+  
+    margin-left: 112px;
+    /* height: 164px; */
+    margin-top: 10px;
+
+}
+.bani .card{
+  height: 400px !important;
+}
+.event{
+  height: 500px;
+    background-color: aliceblue;
+}
+.event img{
+  max-height: 265px !important;
 }
