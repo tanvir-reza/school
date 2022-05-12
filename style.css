@@ -75,7 +75,7 @@ marquee {
   background-color: white;
   box-shadow: 2px 1px 6px 4px lightgrey;
   border-radius: 1px 1px 4px 12px;
-  display: flex;
+  
   margin-top: 11px;
   height: auto;
   padding-bottom: 59px;
@@ -96,7 +96,7 @@ marquee {
 }
 .bani img{
   
-    margin-left: 112px;
+    
     /* height: 164px; */
     margin-top: 10px;
 
